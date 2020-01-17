@@ -1,0 +1,32 @@
+.img-wrapper {
+  display: inline-block;
+  width: 35%;
+}
+
+.img-wrapper > img {
+  width: 100%;
+}
+
+.black-background {
+  background-color: black;
+}
+
+/*
+.st0 {
+  fill:#333 !important;
+}
+
+important is an override
+*/
+
+/*#rGrain, #lGrain {
+  fill: red;
+} */
+
+#beerGraphic:hover #rGrain {
+  fill: red;
+}
+
+#beerGraphic:hover #lGrain {
+  fill: red;
+}
